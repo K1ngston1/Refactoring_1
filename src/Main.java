@@ -3,6 +3,9 @@ public class Main {
         HumanIMB human = new HumanIMB(80, 1.52);
         System.out.println("ІМТ: " + human.getIMB());
         System.out.println("Результат: " + human.getResult());
+
+        System.out.println("Вага: " + human.getWeight());
+        System.out.println("Зріст: " + human.getHeight());
     }
 }
 
